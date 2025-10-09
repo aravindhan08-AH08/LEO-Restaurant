@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+header {
+  background: #ff8c42;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 34px;
+  font-family: "Crimson Pro", serif;
+}
+header h2 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+header p {
+  margin: 5px 0 0;
+  font-size: 18px;
+  color: #ccc;
+}
+header a {
+  margin: 0px;
+  color: white;
+}
+
+.help-section {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.help-section h2 {
+  font-size: 24px;
+  color: #e63946;
+  margin-bottom: 15px;
+}
+
+.faq {
+  margin-bottom: 20px;
+}
+
+.faq h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+  cursor: pointer;
+}
+
+.faq p {
+  margin: 0 0 15px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  display: none;
+}
+
+.contact-support {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fcecec;
+  border-radius: 10px;
+}
+
+.contact-support p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.help-form {
+  margin-top: 25px;
+}
+
+.help-form input,
+.help-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.help-form button {
+  background: #e63946;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.help-form button:hover {
+  background: #c71f2d;
+}

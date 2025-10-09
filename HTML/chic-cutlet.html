@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dish-details.css" />
+    <title>Document</title>
+  </head>
+  <header>
+    <h1>LEO RESTAURANT</h1>
+    <h2>NAME THE DISH & DETAILS</h2>
+    <a href="Snacks.html">
+      <div class="back">Back To Dish</div>
+    </a>
+  </header>
+  <style>
+    body {
+      justify-items: center;
+    }
+    header {
+      background-color: #ff8c42;
+      padding: 20px;
+      width: 100%;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 42px;
+      font-family: "Crimson Pro", serif;
+    }
+
+    header h2 {
+      font-size: 20px;
+      font-weight: normal;
+      margin-top: 5px;
+      letter-spacing: 2px;
+    }
+    .dish-card {
+      height: 350px;
+      width: 350px;
+      border-radius: 10px;
+      background-color: #d59265;
+      padding: 10px;
+      border: 2px solid #444;
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-top: 30px;
+      box-shadow: 5px 5px 5px 5px rgb(47, 48, 48);
+    }
+    .dish-card img {
+      align-content: center;
+    }
+    .dish-card:hover {
+      transition: transform 250ms ease-in-out;
+      transform: scale(1.05);
+    }
+    .item-card ul {
+      list-style-type: disc;
+      text-align: left;
+      margin: 10px;
+      padding-left: 20px;
+      font-size: 16px;
+    }
+  </style>
+  <body>
+     <div class="dish-card">
+        <div class="dish-image2">
+          <img src="/assets/chicken Cutlet.jpg" />
+        </div>
+        <div class="item-card">
+          <h3>Chicken Cutlet</h3>
+          <ul>
+            <li>Minced chicken mixed with spices and mashed potatoes.</li>
+            <li>Breaded and deep-fried.</li>
+            <li>Served with sauce or chutney.</li>
+          </ul>
+        </div>
+      </div>
+  </body>
+</html>
